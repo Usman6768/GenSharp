@@ -32,13 +32,13 @@ export default function RootLayout({ children }) {
       }}
     >
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} dotted-background` } >
         <ThemeProvider attribute="class" defaultTheme="dark">
           <Header />
           <main className="min-h-screen">{children}</main>
           <footer className="bg-gray-900 py-12">
             <div className="container mx-auto px-4 text-center text-gray-200">
-              <p>Made with Love By Usman Pervez</p>
+              <p>Made with 💗 by Usman Pervez</p>
             </div>
           </footer>
         </ThemeProvider>
